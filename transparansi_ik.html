@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparansi Nilai</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card2">
+            <a class="login">Input</a>
+            <div class="inputBox">
+                <input type="text" id="nim" required="required">
+                <span class="user">Masukan NIM</span>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" id="password" required="required">
+                <span>Password</span>
+            </div>
+
+            <button type="button" onclick="checkNilai()" class="enter">Enter</button>
+
+        </div>
+        <div id="warningMessage" style="color: red; margin-top: 20px;"></div>
+        <button class="button2"  id="backButton">Back</button>
+        <button class="button2"  id="homeButton">Back to Home</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="js/ik.js"></script>
+</body>
+
+</html>
